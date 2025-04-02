@@ -1,0 +1,42 @@
+.Container {
+    background-color: palevioletred;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+  
+.navbar-nav {
+    display: flex;
+    font-size: 20px;
+    gap: 1.5rem;
+}
+  
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+  
+.nav-link:hover {
+    color: #d3c2c2 !important;
+}
+  
+.cart-badge {
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+  
