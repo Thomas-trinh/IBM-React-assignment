@@ -1,0 +1,51 @@
+.hero {
+    background-image: url("https://static.wixstatic.com/media/4eb142_d7ceca207aad4908899633fdb4f4b321~mv2.webp/v1/fill/w_640,h_344,al_c,q_80,usm_1.20_1.00_0.01,enc_avif,quality_auto/4eb142_d7ceca207aad4908899633fdb4f4b321~mv2.webp");
+    width: 100vw;
+    height: 55vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero--container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+  }
+
+  .about {
+  color: white;
+  margin: 3rem auto;
+  max-width: 1000px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.button {
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:active {
+    transform: scale(0.98);
+  }
+  

@@ -1,0 +1,31 @@
+.checkout-page {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #333;
+  }
+  
+  .checkout-page h1 {
+    font-size: 2.5rem;
+    color: #28a745;
+    margin-bottom: 1rem;
+  }
+  
+  .checkout-page p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .continue-button {
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .continue-button:hover {
+    background-color: #218838;
+  }
+  
